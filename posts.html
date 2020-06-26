@@ -1,0 +1,11 @@
+{% block posts %}
+{% for post in posts %}
+<div>
+{{ post.title }}
+</div>
+
+<div>
+{{ post.message}}
+</div>
+{% endfor %}
+{% endblock posts %}
