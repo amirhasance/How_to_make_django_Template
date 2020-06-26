@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<div>
+{{ title }}
+{% endblock title %}
+
+{% block content %}
+<div>
+{{ content}}
+</div>
+{% endblock content %}
+
+{% block posts %}
+{% include 'posts.htlm' %}
+{% endblock posts %}
